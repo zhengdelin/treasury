@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!--        <item name="navGraph">@menu/drawer_menu</item>-->
+        <!--        <item name="navigationIcon">@drawable/ic_bars_solid</item>-->
+        <item name="color">@color/white</item>
+        <item name="title">密碼管理器</item>
+        <!-- Toolbar 標題顏色  -->
+        <item name="titleTextColor">@color/white</item>
+        <!-- Toolbar 左邊漢堡包樣式  -->
+        <item name="drawerArrowStyle">@style/ToolbarStyle</item>
+
+        <item name="actionOverflowButtonStyle">@style/ToolbarNavigationButtonStyle</item>
+    </style>
+
+    <style name="Widget.AppTheme.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+    </style>
+</resources>

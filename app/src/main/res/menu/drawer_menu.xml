@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_folders" android:title="所有資料夾" android:icon="@drawable/ic_folder_solid" app:showAsAction="ifRoom"/>
+    <item android:title="操作">
+        <menu>
+            <item android:id="@+id/menu_upload"
+                android:icon="@drawable/ic_cloud_arrow_up_solid"
+                android:title="@string/upload"/>
+            <item android:id="@+id/menu_download"
+                android:icon="@drawable/ic_cloud_arrow_down_solid"
+                android:title="匯入雲端資料至本地"/>
+            <item android:id="@+id/menu_delete"
+                android:icon="@drawable/ic_trash_can_solid"
+                android:title="刪除本地資料"/>
+        </menu>
+    </item>
+    <item android:title="@string/logout">
+        <menu>
+            <item
+                android:id="@+id/menu_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+</menu>

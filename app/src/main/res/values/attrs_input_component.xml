@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="InputComponent">
+        <attr name="labelText" format="string" />
+        <attr name="placeholderText" format="string" />
+    </declare-styleable>
+</resources>

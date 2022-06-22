@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingHorizontal="30dp"
+    android:paddingVertical="50dp"
+    tools:context=".login.LoginActivity">
+    <ImageView
+        android:id="@+id/login_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:contentDescription="圖片"
+        app:srcCompat="@drawable/login_image"
+        tools:src="@drawable/login_image"
+        tools:srcCompat="@drawable/login_image" />
+
+    <com.example.treasury.component.InputComponent
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:labelText="Email"
+        app:placeholderText="輸入Email" />
+
+    <com.example.treasury.component.InputComponent
+        android:id="@+id/login_code"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:labelText="驗證碼"
+        app:placeholderText="輸入驗證碼" />
+
+    <com.example.treasury.component.ButtonComponent
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundColor="@color/blue_400"
+        app:text="下一步" />
+</androidx.appcompat.widget.LinearLayoutCompat>

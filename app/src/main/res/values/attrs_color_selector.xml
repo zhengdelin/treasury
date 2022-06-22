@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="ColorSelector">
+        <attr name="titleLabel" format="string" />
+    </declare-styleable>
+</resources>

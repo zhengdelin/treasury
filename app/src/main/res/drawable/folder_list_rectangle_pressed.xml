@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <!--    <solid android:color="@color/black"></solid>-->
+            <!--    <stroke android:width="3dp" android:color="@color/cardview_dark_background"></stroke>-->
+            <solid android:color="#3b82f6 "></solid>
+            <!--    <padding android:left="1dp" android:top="1dp" android:right="1dp" android:bottom="1dp"></padding>-->
+            <!--    <corners android:radius="7dp"></corners>-->
+        </shape>
+    </item>
+<!--    主區域-->
+    <item android:bottom="1dp">
+        <shape>
+            <solid android:color="#F3F4F6"></solid>
+        </shape>
+    </item>
+</layer-list>
