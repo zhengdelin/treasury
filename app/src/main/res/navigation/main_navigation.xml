@@ -6,7 +6,7 @@
     app:startDestination="@id/folderListFragment">
     <fragment
         android:id="@+id/folderListFragment"
-        android:name="com.example.treasury.folders.FolderListFragment"
+        android:name="com.langyage.treasury.folders.FolderListFragment"
         android:label="所有資料夾"
         tools:layout="@layout/fragment_folder_list" >
         <action
@@ -22,13 +22,13 @@
     </fragment>
     <fragment
         android:id="@+id/folderCreateFragment"
-        android:name="com.example.treasury.folders.FolderCreateFragment"
+        android:name="com.langyage.treasury.folders.FolderCreateFragment"
         android:label="新增資料夾"
         tools:layout="@layout/fragment_folder_create" />
 
     <fragment
         android:id="@+id/passwordListFragment"
-        android:name="com.example.treasury.passwords.PasswordListFragment"
+        android:name="com.langyage.treasury.passwords.PasswordListFragment"
         android:label="密碼"
         tools:layout="@layout/fragment_password_list" >
         <action
@@ -40,22 +40,22 @@
     </fragment>
     <fragment
         android:id="@+id/passwordCreateFragment"
-        android:name="com.example.treasury.passwords.PasswordCreateFragment"
+        android:name="com.langyage.treasury.passwords.PasswordCreateFragment"
         android:label="新建密碼"
         tools:layout="@layout/fragment_password_create" />
     <fragment
         android:id="@+id/passwordUpdateFragment"
-        android:name="com.example.treasury.passwords.PasswordUpdateFragment"
+        android:name="com.langyage.treasury.passwords.PasswordUpdateFragment"
         android:label="更改密碼"
         tools:layout="@layout/fragment_password_update" />
     <fragment
         android:id="@+id/folderUpdateFragment"
-        android:name="com.example.treasury.folders.FolderUpdateFragment"
+        android:name="com.langyage.treasury.folders.FolderUpdateFragment"
         android:label="修改資料夾"
         tools:layout="@layout/fragment_folder_update" />
     <fragment
         android:id="@+id/dataRefreshFragment"
-        android:name="com.example.treasury.DataRefreshFragment"
+        android:name="com.langyage.treasury.DataRefreshFragment"
         android:label="fragment_data_refresh"
         tools:layout="@layout/fragment_data_refresh" />
 </navigation>

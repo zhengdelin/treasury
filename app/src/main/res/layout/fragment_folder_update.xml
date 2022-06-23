@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:paddingHorizontal="30dp"
     android:paddingVertical="50dp"
-    tools:context=".folders.FolderUpdateFragment">
+    tools:context="com.langyage.treasury.folders.FolderUpdateFragment">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             android:maxLength="20"/>
 
     </LinearLayout>
-    <com.example.treasury.component.ColorSelector
+    <com.langyage.treasury.component.ColorSelector
         android:id="@+id/color_selector"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

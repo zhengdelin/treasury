@@ -16,7 +16,7 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
-            android:name=".login.LoginActivity"
+            android:name="com.langyage.treasury.login.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.langyage.treasury.MainActivity"
             android:exported="false">
 
         </activity>
