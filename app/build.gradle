@@ -8,7 +8,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.example.treasury"
+        applicationId "com.langyage.treasury"
         minSdk 30
         targetSdk 32
         versionCode 1

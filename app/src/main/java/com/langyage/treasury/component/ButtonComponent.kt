@@ -6,8 +6,8 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.Button
 import android.widget.LinearLayout
-import com.example.treasury.R
-import com.example.treasury.databinding.SampleButtonComponentBinding
+import com.langyage.treasury.R
+import com.langyage.treasury.databinding.SampleButtonComponentBinding
 
 class ButtonComponent(
     context: Context, attrs:AttributeSet

@@ -9,9 +9,8 @@ import androidx.fragment.app.FragmentManager
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.*
-import com.example.treasury.R
 import com.langyage.treasury.cloud.CloudController
-import com.example.treasury.databinding.ActivityMainBinding
+import com.langyage.treasury.databinding.ActivityMainBinding
 import com.langyage.treasury.login.LoginController
 import com.google.android.material.navigation.NavigationView
 

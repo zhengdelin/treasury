@@ -9,8 +9,8 @@ import android.widget.LinearLayout
 import android.widget.SeekBar
 import android.widget.TextView
 import com.langyage.treasury.ColorData
-import com.example.treasury.R
-import com.example.treasury.databinding.SampleColorSelectorBinding
+import com.langyage.treasury.R
+import com.langyage.treasury.databinding.SampleColorSelectorBinding
 
 class ColorSelector(
     context: Context, attrs: AttributeSet

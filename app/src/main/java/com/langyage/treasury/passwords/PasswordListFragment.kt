@@ -10,8 +10,8 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.langyage.treasury.AlertDialogController
-import com.example.treasury.R
-import com.example.treasury.databinding.FragmentPasswordListBinding
+import com.langyage.treasury.R
+import com.langyage.treasury.databinding.FragmentPasswordListBinding
 import com.langyage.treasury.folders.FolderController
 import com.langyage.treasury.folders.FolderData
 

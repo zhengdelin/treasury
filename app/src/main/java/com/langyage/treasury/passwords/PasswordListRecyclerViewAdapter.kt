@@ -4,8 +4,8 @@ import android.util.Log
 import android.view.*
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.treasury.R
-import com.example.treasury.databinding.PasswordListRecyclerViewLayoutBinding
+import com.langyage.treasury.R
+import com.langyage.treasury.databinding.PasswordListRecyclerViewLayoutBinding
 
 
 class PasswordListRecyclerViewAdapter(

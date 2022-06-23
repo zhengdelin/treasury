@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.findNavController
-import com.example.treasury.databinding.FragmentPasswordUpdateBinding
+import com.langyage.treasury.databinding.FragmentPasswordUpdateBinding
 import com.langyage.treasury.folders.FolderController
 import com.langyage.treasury.folders.FolderData
 

@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.treasury.R
-import com.example.treasury.databinding.FolderListRecyclerViewLayoutBinding
+import com.langyage.treasury.R
+import com.langyage.treasury.databinding.FolderListRecyclerViewLayoutBinding
 
 class FolderListRecyclerViewAdapter(private val data:MutableList<FolderData>, private var optionsMenuClickListener: OptionsMenuClickListener):
 RecyclerView.Adapter<FolderListRecyclerViewAdapter.ViewHolder>(){

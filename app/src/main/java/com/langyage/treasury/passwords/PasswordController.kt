@@ -11,7 +11,7 @@ import androidx.core.os.bundleOf
 import com.langyage.treasury.GlobalVariable
 import com.langyage.treasury.MyDBHelper
 import com.langyage.treasury.cloud.NextIdData
-import com.example.treasury.R
+import com.langyage.treasury.R
 import com.langyage.treasury.ToastController
 import com.langyage.treasury.api.ApiCallback
 import com.langyage.treasury.api.ApiController

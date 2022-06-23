@@ -14,7 +14,6 @@ import android.widget.Toast
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.core.os.bundleOf
-import com.example.treasury.*
 import com.langyage.treasury.api.ApiCallback
 import com.langyage.treasury.api.ApiController
 import com.langyage.treasury.api.ApiData
@@ -22,6 +21,7 @@ import com.langyage.treasury.cloud.DeleteData
 import com.langyage.treasury.cloud.NextIdData
 import com.langyage.treasury.GlobalVariable
 import com.langyage.treasury.MyDBHelper
+import com.langyage.treasury.R
 import com.langyage.treasury.ToastController
 import okhttp3.Call
 import okhttp3.Response

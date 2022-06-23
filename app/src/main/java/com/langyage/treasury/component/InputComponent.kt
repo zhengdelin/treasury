@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.example.treasury.R
-import com.example.treasury.databinding.SampleInputComponentBinding
+import com.langyage.treasury.R
+import com.langyage.treasury.databinding.SampleInputComponentBinding
 
 class InputComponent(
     context: Context, attrs:AttributeSet

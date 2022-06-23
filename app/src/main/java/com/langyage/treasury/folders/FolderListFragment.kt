@@ -10,8 +10,8 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.langyage.treasury.AlertDialogController
-import com.example.treasury.R
-import com.example.treasury.databinding.FragmentFolderListBinding
+import com.langyage.treasury.R
+import com.langyage.treasury.databinding.FragmentFolderListBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

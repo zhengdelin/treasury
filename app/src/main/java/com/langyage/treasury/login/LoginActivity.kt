@@ -8,7 +8,7 @@ import androidx.appcompat.widget.LinearLayoutCompat
 import com.langyage.treasury.component.InputComponent
 import com.langyage.treasury.MainActivity
 import com.langyage.treasury.ToastController
-import com.example.treasury.databinding.ActivityLoginBinding
+import com.langyage.treasury.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding:ActivityLoginBinding

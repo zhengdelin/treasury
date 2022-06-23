@@ -35,7 +35,7 @@ class LoginController(private val context: Context, private val activity: Activi
                 apiController.post(ApiData(url, data),object : ApiCallback {
                     override fun onResponse(call: Call, response: Response) {
                         val res = response.body?.string()
-                        Log.i("login res:",res!!)
+                        Log.i("login step1 res:",res!!)
                         if(!res.isNullOrEmpty()){
                             val jsonObject = JSONObject(res)
                             val code:Int = jsonObject.getInt("code")
@@ -54,7 +54,7 @@ class LoginController(private val context: Context, private val activity: Activi
                 apiController.post(ApiData(url, data),object : ApiCallback {
                     override fun onResponse(call: Call, response: Response) {
                         val res = response.body?.string()
-                        Log.i("login res:",res!!)
+                        Log.i("login step2 res:",res!!)
                         if(!res.isNullOrEmpty()){
                             val jsonObject = JSONObject(res)
                             val code:Int = jsonObject.getInt("code")
